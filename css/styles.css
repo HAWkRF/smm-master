@@ -1,0 +1,167 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+header {
+    margin: 0;
+}
+
+.offer1 {}
+
+.offer2 {
+    min-width: 320px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 700px;
+    background: #282828;
+    background-size: cover !important;
+}
+
+.what-is-smm {
+    margin-left: 103px;
+    top: 20px;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.offer-2-text-center span+span {
+    top: 31px;
+}
+
+.text1-what-is-smm {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFF;
+}
+
+.long-line-what-is-smm {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* offer2 */
+    main .offer2-text-smm {
+        font-size: 50px;
+        line-height: 60px;
+        margin-left: -70px;
+        margin-top: -15px;
+    }
+    main .line-what-is-smm {
+        display: block;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    main .long-line-what-is-smm {
+        display: none;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 767px) {
+    /* offer2 */
+    main.text1-what-is-smm {
+        font-size: 15px;
+        line-height: 19px;
+        margin-left: 70px;
+        margin-top: 90px;
+    }
+    main .text2-what-is-smm {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    main .what-is-smm {
+        font-size: 17px;
+        line-height: 20px;
+        margin-top: 50px;
+        font-family: Russo One;
+        font-weight: 700;
+    }
+    main .offer2-text-smm {
+        font-size: 50px;
+        line-height: 60px;
+        margin-left: -70px;
+        margin-top: -15px;
+    }
+    main .line-what-is-smm {
+        display: none;
+    }
+    main .long-line-what-is-smm {
+        display: block;
+        margin-left: 40px;
+        padding-top: 15px;
+    }
+    main .frame150-group164-text1 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    main .frame150-group164-text2 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    main .frame150-group164-text3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    main .frame150-text {
+        margin-left: -90px;
+        margin-top: 50px;
+    }
+    main .offer3-fr150-group162 {
+        display: block;
+    }
+}
+
+.text2-what-is-smm {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 35px;
+    color: #FFF;
+}
+
+.offer2-text-smm {
+    display: inline-block;
+    padding-top: 100px;
+    margin-left: -10px;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #FFF;
+    transform: rotate(-90deg);
+    margin-right: -50px;
+}
+
+.line-what-is-smm {
+    margin-left: 130px;
+    margin-top: 40px;
+}
